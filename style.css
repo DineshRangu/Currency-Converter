@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: skyblue;
+}
+.container{
+    background-color: beige ;
+    padding: 2rem;
+    border-radius: 5rem;
+    height: 45vh;
+    width: 50vh;
+}
+form{
+    margin: 2rem 0 1rem 0
+}
+form select,button, input{
+    width: 100%;
+    border: 0cqi;
+    border: radius 0.5rem; ;
+}
+form input{
+    border:1px solid coral;
+    font-size: 1rem;
+    height: 2rem;
+    padding: 0.2rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-container{
+    display: flex;
+    
+
+}
+.msg{
+    padding: 2rem 0 2rem;
+    display: flex;
+    font-style: normal;
+    font-size: 1.5rem ;
+    justify-content: center;
+}
+
+
+form button{
+    height: 3rem;
+    background-color: lightcoral;
+    color: aliceblue;
+    font-size: 1.15rem;
+    cursor: pointer ;
+}
